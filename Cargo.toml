@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "managed-tracing",
+    "opentelemetry-file",
+    "trace-data-uploader"
+]

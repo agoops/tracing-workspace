@@ -1,0 +1,8 @@
+[package]
+authors = ["Transparent Engineers <engineering@transparent.us>"]
+name = "opentelemetry-file"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+thiserror = "1.0"

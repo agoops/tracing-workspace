@@ -1,0 +1,9 @@
+publish:
+  extends: .tagged-publish-template
+  needs:
+  - job: build
+    artifacts: true
+  - job: test
+    artifacts: false
+  - job: check-tag
+    artifacts: false
