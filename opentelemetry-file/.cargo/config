@@ -1,2 +1,0 @@
-[registries.tpfs]
-index = "ssh://git@gitlab.com/TransparentIncDevelopment/internaltools/tpfs-crates-index.git"

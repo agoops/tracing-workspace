@@ -13,7 +13,3 @@
 *.pid.lock
 
 target/
-
-# TPFS Internal Rust Lib; Ignore Cargo.lock file
-# https://gitlab.com/TransparentIncDevelopment/docs/engineering-guide/-/blob/master/versioning.md#practical-details
-Cargo.lock

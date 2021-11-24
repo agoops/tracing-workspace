@@ -1,2 +1,0 @@
-check-tag:
-  extends: .check-tag-template

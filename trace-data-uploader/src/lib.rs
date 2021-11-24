@@ -27,8 +27,10 @@
 // #![warn(clippy::cargo, clippy::restriction, missing_docs, warnings)]
 // #![allow(clippy::implicit_return)]
 
+pub mod cli;
 pub mod error;
-
+pub mod input_data;
+pub mod uploader;
 pub fn hello_world() {
     println!("Hello, world!");
 }

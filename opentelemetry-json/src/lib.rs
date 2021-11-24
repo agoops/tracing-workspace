@@ -16,6 +16,7 @@
     clippy::wildcard_imports,
     incomplete_features
 )]
+#![cfg_attr(test, allow(non_snake_case))]
 // To use the `unsafe` keyword, do not remove the `unsafe_code` attribute entirely.
 // Instead, change it to `#![allow(unsafe_code)]` or preferably `#![deny(unsafe_code)]` + opt-in
 // with local `#[allow(unsafe_code)]`'s on a case-by-case basis, if practical.
@@ -28,6 +29,8 @@
 // #![allow(clippy::implicit_return)]
 
 pub mod error;
+pub mod exporter;
+pub mod pipeline;
 
 pub fn hello_world() {
     println!("Hello, world!");
@@ -35,7 +38,6 @@ pub fn hello_world() {
 
 #[cfg(test)]
 mod tests {
-    #![allow(non_snake_case)]
 
     #[test]
     fn function_under_test__action_being_tested__result() {

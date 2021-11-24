@@ -2,6 +2,6 @@
 
 members = [
     "managed-tracing",
-    "opentelemetry-file",
+    "opentelemetry-json",
     "trace-data-uploader"
 ]

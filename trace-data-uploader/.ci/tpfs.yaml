@@ -1,4 +1,0 @@
-include:
-  - project: 'transparentincdevelopment/product/devops/tpfs-ci'
-    ref: v0.0.1
-    file: '/templates/rust/gitlab-ci.yaml'

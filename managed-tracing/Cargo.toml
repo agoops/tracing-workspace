@@ -1,5 +1,5 @@
 [package]
-authors = ["Transparent Engineers <engineering@transparent.us>"]
+authors = ["Ankit Gupta <ankit@transparent.us>"]
 name = "managed-tracing"
 version = "0.1.0"
 edition = "2018"

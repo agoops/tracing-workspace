@@ -1,8 +1,14 @@
 [package]
-authors = ["Transparent Engineers <engineering@transparent.us>"]
+authors = ["Ankit Gupta <ankit@transparent.us>"]
 name = "trace-data-uploader"
 version = "0.1.0"
 edition = "2018"
 
 [dependencies]
+futures = "0.3"
+serde_json = "1.0"
+structopt = "0.3"
 thiserror = "1.0"
+tokio = { version = "1.0", features = ["macros", "rt"] }
+opentelemetry = { version = "0.16.0", features = ["serialize"] }
+opentelemetry-jaeger = "0.15.0"

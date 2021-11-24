@@ -1,5 +1,0 @@
-include:
-  - local: '/.ci/tpfs.yaml'
-  - local: '/.ci/custom-templates.yaml'
-  - local: '/.ci/custom-jobs.yaml'
-  - local: '/.ci/tpfs-job-overrides.yaml'
